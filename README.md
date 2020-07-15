@@ -25,3 +25,21 @@ You can manually download the datasets at [here](https://drive.google.com/drive/
 
 ## Running Experiments
 Note that it's rather **time-consuming** to train the DukeNet with BERT and dual learning. Therefore we upload our pretrained checkpoints on two datasets, and you can manually download them at [here]().
+
+
+```
+Holl-E_single golden reference
+{"F1": 30.32,
+ "BLEU-1": 29.97, 
+ "BLEU-2": 22.2, 
+ "BLEU-3": 20.09, 
+ "BLEU-4": 19.15, 
+ "ROUGE_1_F1": 36.53, 
+ "ROUGE_2_F1": 23.02, 
+ "ROUGE_L_F1": 31.46, 
+ "Distinct-1": 5.9, 
+ "Distinct-2": 23.77, 
+ "METEOR": 30.93, 
+ "t_acc": 92.11, 
+ "s_acc": 30.03}
+```
