@@ -1,6 +1,7 @@
 # DukeNet (SIGIR 2020 full paper)
 The code for [DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation]()
 
+## Reference
 If you use any source code included in this repo in your work, please cite the following paper.
 ```
 @inproceedings{chuanmeng2020dukenet,
@@ -10,4 +11,9 @@ If you use any source code included in this repo in your work, please cite the f
  year = {2020}
 }
 ```
+
+## Requirements 
+* python 3.6
+* pytorch 1.2-1.4
+* nltk
 
