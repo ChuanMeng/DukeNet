@@ -28,7 +28,7 @@ Note that it's rather **time-consuming** to train the DukeNet with BERT and dual
 
 
 ```
-Holl-E_single golden reference
+Holl-E (single golden reference)
 {"F1": 30.32,
  "BLEU-1": 29.97, 
  "BLEU-2": 22.2, 
@@ -37,9 +37,21 @@ Holl-E_single golden reference
  "ROUGE_1_F1": 36.53, 
  "ROUGE_2_F1": 23.02, 
  "ROUGE_L_F1": 31.46, 
- "Distinct-1": 5.9, 
- "Distinct-2": 23.77, 
  "METEOR": 30.93, 
  "t_acc": 92.11, 
  "s_acc": 30.03}
+ 
+ Holl-E (multiple golden references)
+{"F1": 37.31,
+ "BLEU-1": 40.36, 
+ "BLEU-2": 30.78, 
+ "BLEU-3": 27.99, 
+ "BLEU-4": 26.83, 
+ "ROUGE_1_F1": 43.18, 
+ "ROUGE_2_F1": 30.13, 
+ "ROUGE_L_F1": 38.03, 
+ "METEOR": 37.73,  
+ "s_acc": 40.33}
 ```
+
+
