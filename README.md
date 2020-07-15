@@ -24,4 +24,4 @@ Both datasets have already been processed into our defined format, which could b
 You can manually download the datasets at [here](https://drive.google.com/drive/folders/1dgkCKaypKHej-NE2HYuiP1VhuF-xCgqT?usp=sharing).
 
 ## Running Experiments
-Note that it's rather #time-consuming# to train the DukeNet with BERT and dual learning. Therefore we upload our pretrained checkpoints on two datasets, and you can manually download them at [here]().
+Note that it's rather **time-consuming** to train the DukeNet with BERT and dual learning. Therefore we upload our pretrained checkpoints on two datasets, and you can manually download them at [here]().
