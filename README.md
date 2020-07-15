@@ -18,4 +18,6 @@ If you use any source code included in this repo in your work, please cite the f
 * transformers
 
 ## Datasets
-
+We use Wizard of Wikipedia and Holl-E datasets. Note that we used modified verion of Holl-E relased by [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL).
+Both datasets have already been processed into our defined format, which could be directly used by our model.
+You can manually download the datasets at [here]()
