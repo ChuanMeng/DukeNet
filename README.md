@@ -15,5 +15,5 @@ If you use any source code included in this repo in your work, please cite the f
 ## Requirements 
 * python 3.6
 * pytorch 1.2-1.4
-* nltk
+* transformers
 
