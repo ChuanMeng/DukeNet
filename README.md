@@ -1,5 +1,5 @@
 # DukeNet (SIGIR 2020 full paper)
-The code for [DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation. Chuan Meng](https://arxiv.org/abs/1908.06449)
+The code for [DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation]()
 If you use any source code included in this repo in your work, please cite the following paper.
 ```
 @inproceedings{chuanmeng2020dukenet,
