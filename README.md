@@ -108,14 +108,6 @@ Holl-E
 python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode train
 python DukeNet/Dual_Run.py --name DukeNet_Holl_E --dataset holl_e 
 ```
-You can run a inference job after the training, or at the same time with training:
-```
-Wizard of Wikipedia
-python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode inference
-
-Holl-E
-python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode inference
-```
 
 
 
