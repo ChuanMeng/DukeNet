@@ -29,7 +29,7 @@ Note that it's rather **time-consuming** to train the DukeNet with BERT and dual
 
 Please put the files in the directory `DukeNet/output`.
 
-### Using Pretrained Checkpoints
+### Using pretrained checkpoints
 To directly execute inference process on **Wizard of Wikipedia** dataset, run:
 ```
 python DukeNet/Run.py --name DukeNet_WoW --dataset wizard_of_wikipedia --mode inference
