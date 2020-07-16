@@ -79,12 +79,12 @@ Holl-E (single golden reference)
  "t_acc": 92.11, 
  "s_acc": 30.03}
  ```
-
-If you get the results in the setting of multiple golden references, run:
+ 
+If you want to get the results in the setting of multiple golden references, run:
 ```
 python DukeNet/CumulativeTrainer.py 
 
- Holl-E (multiple golden references)
+Holl-E (multiple golden references)
 {"F1": 37.31,
  "BLEU-1": 40.36, 
  "BLEU-2": 30.78, 
@@ -108,8 +108,14 @@ Holl-E
 python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode train
 python DukeNet/Dual_Run.py --name DukeNet_Holl_E --dataset holl_e 
 ```
+You can run a inference job after the training, or at the same time with training:
+```
+Wizard of Wikipedia
+python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode inference
 
-
+Holl-E
+python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode inference
+```
 
 
 
