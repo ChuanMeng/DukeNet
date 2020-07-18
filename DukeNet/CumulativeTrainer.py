@@ -325,7 +325,7 @@ if __name__ == '__main__':
     detokenizer = bert_detokenizer()
 
     dataset_name="test"
-    run_file = "output/DukeNet_Holl_E/test_d_2.txt"
+    run_file = "output/DukeNet_Holl_E/test_d_5.txt"
     answer_file ="datasets/holl_e/holl_e.multi_answer"
 
 
