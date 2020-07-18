@@ -67,17 +67,17 @@ To directly execute inference process on **Holl-E** dataset, run:
 python DukeNet/Run.py --name DukeNet_Holl_E --dataset holl_e --mode inference
 
 Holl-E (single golden reference)
-{"F1": 30.32,
- "BLEU-1": 29.97, 
- "BLEU-2": 22.2, 
- "BLEU-3": 20.09, 
- "BLEU-4": 19.15, 
- "ROUGE_1_F1": 36.53, 
- "ROUGE_2_F1": 23.02, 
- "ROUGE_L_F1": 31.46, 
- "METEOR": 30.93, 
- "t_acc": 92.11, 
- "s_acc": 30.03}
+ {"F1": 30.58,
+  "BLEU-1": 30.11,
+  "BLEU-2": 22.51,
+  "BLEU-3": 20.42,
+  "BLEU-4": 19.43,
+  "ROUGE_1_F1": 36.67,
+  "ROUGE_2_F1": 23.24,
+  "ROUGE_L_F1": 31.68,
+  "METEOR": 31.27,
+  "t_acc": 92.79,
+  "s_acc": 30.4}
  ```
  
 If you want to get the results in the setting of multiple golden references, run:
@@ -85,16 +85,16 @@ If you want to get the results in the setting of multiple golden references, run
 python DukeNet/CumulativeTrainer.py 
 
 Holl-E (multiple golden references)
-{"F1": 37.31,
- "BLEU-1": 40.36, 
- "BLEU-2": 30.78, 
- "BLEU-3": 27.99, 
- "BLEU-4": 26.83, 
- "ROUGE_1_F1": 43.18, 
- "ROUGE_2_F1": 30.13, 
- "ROUGE_L_F1": 38.03, 
- "METEOR": 37.73,  
- "s_acc": 40.33}
+{"F1": 37.68,
+ "BLEU-1": 40.43, 
+ "BLEU-2": 31.03, 
+ "BLEU-3": 28.21, 
+ "BLEU-4": 26.97, 
+ "ROUGE_1_F1": 43.36, 
+ "ROUGE_2_F1": 30.42, 
+ "ROUGE_L_F1": 38.28, 
+ "METEOR": 38.14,  
+ "s_acc": 40.81}
 ```
 
 ### Retraining
