@@ -101,7 +101,7 @@ Holl-E (multiple golden references)
 To execute warm-up training phase and dual interaction training phase, run sequentially:
 ```
 Wizard of Wikipedia
-python DukeNet/Run.py --name DukeNet_WoW --dataset wizard_of_wikipedia --mode inference 
+python DukeNet/Run.py --name DukeNet_WoW --dataset wizard_of_wikipedia --mode train
 python DukeNet/Dual_Run.py --name DukeNet_WoW --dataset wizard_of_wikipedia 
 
 Holl-E
