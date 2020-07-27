@@ -12,7 +12,6 @@ year = {2020},
 booktitle = {SIGIR},
 pages = {1151–1160},
 }
-
 ```
 
 ## Requirements 
