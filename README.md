@@ -1,5 +1,5 @@
 # DukeNet (SIGIR 2020 full paper)
-The code for [DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation](https://dl.acm.org/doi/pdf/10.1145/3397271.3401097)
+The code for [DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation](https://dl.acm.org/doi/pdf/10.1145/3397271.3401097). This work was partly supported by Tencent AI Lab.
 ![image](https://github.com/ChuanMeng/DukeNet/blob/master/figure.png)
 
 ## Reference
