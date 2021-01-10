@@ -36,7 +36,7 @@ def train(args):
         passage = torch.load(data_path + 'passage_DukeNet.pkl')
         print("The number of train_samples:", len(train_samples))
     else:
-        samples, query, passage = load_default(args.dataset, args.datasetdata_path + args.dataset + '.answer',
+        samples, query, passage = load_default(args.dataset, data_path + args.dataset + '.answer',
                                                                    data_path + args.dataset + '.passage',
                                                                    data_path + args.dataset + '.pool',
                                                                    data_path + args.dataset + '.qrel',
