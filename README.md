@@ -17,7 +17,7 @@ pages = {1151–1160},
 ## Requirements 
 * python 3.6
 * pytorch 1.2.0-1.4.0
-* transformers
+* transformers 2.6
 
 ## Datasets
 We use Wizard of Wikipedia and Holl-E datasets. Note that we used modified verion of Holl-E relased by [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL) (But they don't release the validation set).
