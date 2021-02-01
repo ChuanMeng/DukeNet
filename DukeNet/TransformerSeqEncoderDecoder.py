@@ -58,8 +58,8 @@ class TransformerSeqDecoder(nn.Module):
         self.id2vocab = id2vocab
 
         if emb_matrix is not None:
-            self.embedding = nn.Sequential(emb_matrix, PositionalEmbedding(self.args.hidden_size, dropout=0.1, max_len=1000)) 
-            #self.embedding = emb_matrix
+            #self.embedding = nn.Sequential(emb_matrix, PositionalEmbedding(self.args.hidden_size, dropout=0.1, max_len=1000)) 
+            self.embedding = emb_matrix
         else:
             raise AssertionError(
                 "This code should not execute. Left here in case we want to enable it."
